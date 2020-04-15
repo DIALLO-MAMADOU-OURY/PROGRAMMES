@@ -1,0 +1,18 @@
+[
+    {
+        "prenom": "Douve",
+        "nom": "Wane",
+        "login": "admin",
+        "password": "admin",
+        "profil": "admin",
+        "photo": "./public/images/img5.jpg"
+    },
+    {
+        "prenom": "Mamadou Oury",
+        "nom": "Diallo",
+        "login": "joueur",
+        "password": "joueur",
+        "profil": "joueur",
+        "photo": "./public/images/user1.jpg"
+    }
+]

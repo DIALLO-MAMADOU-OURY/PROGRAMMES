@@ -34,7 +34,7 @@
 
             <div class="input-form">
                 <button type="submit" name="btn_submit" class="btn-form">Connexion</button>
-                <a href="index.php?lien=admin_inscription" class="link-form">Sinscrire pour jouer ?</a>
+                <a href="index.php?lien=inscription" class="link-form">Sinscrire pour jouer ?</a>
             </div>
         </form>
     </div>

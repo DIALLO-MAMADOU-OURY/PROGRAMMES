@@ -25,5 +25,23 @@
         "profil": "admin",
         "photo": null,
         "score": 0
+    },
+    {
+        "prenom": "abdoulaye",
+        "nom": "DIA",
+        "login": "DIBRILE",
+        "password": "12345",
+        "profil": "joueur",
+        "photo": null,
+        "score": 0
+    },
+    {
+        "prenom": "MOUSSA",
+        "nom": "BA",
+        "login": "M50",
+        "password": "123",
+        "profil": "admin",
+        "photo": null,
+        "score": 0
     }
 ]

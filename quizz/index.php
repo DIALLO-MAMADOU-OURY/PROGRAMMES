@@ -26,7 +26,7 @@
                         require_once("./pages/jeux.php");
                         break;
                     
-                    case 'admin_inscription':
+                    case 'inscription':
                         require_once("./pages/inscription.php");
                     break;
                     default:

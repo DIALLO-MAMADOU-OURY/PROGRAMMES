@@ -11,13 +11,13 @@ foreach ($liste as $key => $value) {
 }
 $_SESSION['tab'] = $tab;
 
-$npage = ceil(sizeof($tab)/5);
+$npage = ceil(sizeof($tab)/15);
 if(!isset($_GET['page'])){
     $page = 1;
 }else{
     $page = $_GET['page'];
 }
-$min = ($page-1)*5; $max = $min + 5;
+$min = ($page-1)*15; $max = $min + 15;
 if($page <= 1){
     $page = 1;
     $prev = 'none';

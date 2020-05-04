@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUIZZ</title>
     <link rel="stylesheet" href="./public/css/quizz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
 </head>
 <body>
@@ -26,7 +27,7 @@
                         require_once("./pages/jeux.php");
                         break;
                     
-                    case 'inscription':
+                    case 'admin_inscription':
                         require_once("./pages/inscription.php");
                     break;
                     default:

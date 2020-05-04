@@ -20,11 +20,11 @@
                 </div>
             </div>
             <div id="PrenomNom">
-                <p id="p1"> <?php echo $_SESSION['user']['prenom'] ?> </p>
-                <p id="p2"><?php echo $_SESSION['user']['nom'] ?></p>
+                <p id="p1"><?php echo $_SESSION['user']['prenom'];  ?> </p>
+                <p id="p2"><?php echo $_SESSION['user']['nom'];  ?></p>
             </div>
         </div>
-
+        
         <!-- lien -->
         <div class="lien">
             <a href="index.php?lien=accueil&block=listequestion"><div class="liens">

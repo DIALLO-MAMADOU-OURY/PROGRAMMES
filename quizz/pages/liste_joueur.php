@@ -41,6 +41,26 @@ td {
     padding: .25em 1em;
     text-align: left
 }
+.prev{
+            display: <?= $prev ?>;
+            align-self: flex-start;
+        }
+        .next{
+            display: <?= $next ?>;
+            float: right;
+            margin-right: 10px;
+            /* position: relative;
+            top: 10px;
+            left: 60%; */
+            
+        }
+        .next>button,.prev>button{
+            color: white;
+            background-color: #3addd6;
+            border: none;
+            width: 120px;
+            height: 35px;
+        }
     </style>
     <div class="right">
         <h2>Liste des joueurs par score</h2>
@@ -70,6 +90,8 @@ td {
             </table>
         </div>
         <div class="paginate-liste-zone">
-        <button type="submit" name="btn_submit" class="btn-form-admin"><a href="index.php?lien=accueil&block=joueur&page=<?= $page+=1?>"> suivat</a></button>
+        <a class="prev" href="index.php?lien=accueil&block=joueur&page=<?= $page-1 ?>"><button>Précédent</button> </a>
+        <a href="index.php?lien=accueil&block=joueur&page=<?= $page+=1?>" class="next"> <button>suivant</button> </a>
+        
         </div>
     </div>

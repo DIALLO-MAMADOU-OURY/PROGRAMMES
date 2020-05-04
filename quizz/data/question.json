@@ -1,0 +1,103 @@
+[
+    {
+        "libelle": "quels sont les la,guages de programations ?",
+        "score": "3",
+        "type": "multiple",
+        "reponsePossible": [
+            "C",
+            "Anglais",
+            "PHP"
+        ],
+        "bonneReponse": [
+            "C",
+            "PHP"
+        ]
+    },
+    {
+        "libelle": "Pays d'o\u00f9 provient le coronavirus ?",
+        "score": "6",
+        "type": "simple",
+        "reponsePossible": [
+            "Senegal",
+            "Chine",
+            "Italie"
+        ],
+        "bonneReponse": "Chine"
+    },
+    {
+        "libelle": "Que signifie HTML ?",
+        "score": "5",
+        "type": "text",
+        "reponsePossible": [
+            "Hyper Text Makeup Language."
+        ],
+        "bonneReponse": "Hyper Text Makeup Language."
+    },
+    {
+        "libelle": "Qui a organis\u00e9 la coupe du monde 2010 ?",
+        "score": "2",
+        "type": "simple",
+        "reponsePossible": [
+            "Brazil",
+            "Afrique du SUD",
+            "Qatar"
+        ],
+        "bonneReponse": "Afrique du SUD"
+    },
+    {
+        "libelle": "Qui a d\u00e9couvert les Etats unis ?",
+        "score": "4",
+        "type": "text",
+        "reponsePossible": [
+            "Christophe Colomb"
+        ],
+        "bonneReponse": "Christophe Colomb"
+    },
+    {
+        "libelle": "Les languages du web ?",
+        "score": "4",
+        "type": "multiple",
+        "reponsePossible": [
+            "java",
+            "PHP",
+            "javascript",
+            "R"
+        ],
+        "bonneReponse": [
+            "PHP",
+            "javascript"
+        ]
+    },
+    {
+        "libelle": "le president du senegal",
+        "score": "3",
+        "type": "simple",
+        "reponsePossible": [
+            "wade",
+            "Senghor",
+            "Sall"
+        ],
+        "bonneReponse": "Sall"
+    },
+    {
+        "libelle": "Le senegal a eu sont independance en quelle annee ?",
+        "score": "3",
+        "type": "simple",
+        "reponsePossible": [
+            "1945",
+            "1960",
+            "1965",
+            "1980"
+        ],
+        "bonneReponse": "1960"
+    },
+    {
+        "libelle": "Quelle la capitale du senegal ?",
+        "score": "3",
+        "type": "text",
+        "reponsePossible": [
+            "DAKAR"
+        ],
+        "bonneReponse": "DAKAR"
+    }
+]

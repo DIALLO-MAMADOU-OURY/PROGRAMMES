@@ -21,7 +21,7 @@ body {
     background-image: url(../images/img-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 700px;
 }
 
 .header-text {
@@ -184,7 +184,7 @@ a {
 .joueur-body {
     position: relative;
     left: 2.3%;
-    height: 580px;
+    height: 85%;
     width: 95%;
     background-color: #818181;
 }
@@ -194,7 +194,7 @@ a {
     border-radius: 5px;
     top: 2%;
     left: 2.3%;
-    height: 480px;
+    /* height: 470px; */
     width: 95%;
     background-color: #c5c7c7;
 }
@@ -211,6 +211,39 @@ a {
 
 .tablinks {
     color: #3addd6;
+}
+
+.questiondisplay {
+    float: left;
+    position: relative;
+    left: 2%;
+    top: 2%;
+    width: 67%;
+    /* height: 400px; */
+    border: 1px solid black;
+    border-radius: 10px/20px;
+}
+
+.questiondisplay-libelle {
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 110px;
+    box-shadow: 1px 1px 1px #3addd6;
+    background-color: #dddddd;
+    text-align: center;
+}
+
+.nbrePoint {
+    position: relative;
+    left: 88%;
+    top: 10px;
+    width: 65px;
+    height: 35px;
+    background-color: #dddddd;
+    box-shadow: 1px 1px 1px #3addd6;
+    text-align: center;
+    line-height: 2;
 }
 
 
@@ -385,7 +418,7 @@ a {
 .right {
     float: right;
     width: 60%;
-    height: 550px;
+    /* height: 550px; */
     background-color: white;
     position: relative;
     right: 3%;
@@ -423,7 +456,6 @@ a {
     border: 2px solid silver;
     border-radius: 10px;
     width: 93%;
-    height: 75%;
     position: relative;
     left: 3%;
 }
@@ -467,4 +499,94 @@ h2 {
     position: relative;
     right: 12%;
     top: -12px;
+    /* margin-right: 40px; */
+    color: white;
+    background-color: #3addd6;
+    /* margin-top: 30px;
+    border-radius: 5px; */
+    border: none;
+    width: 120px;
+    height: 35px;
+}
+
+
+/* Create Question */
+
+.question-indication>h1 {
+    text-transform: uppercase;
+    color: #3addd6;
+    margin-left: 35px;
+}
+
+.creationQuestion-body {
+    border: solid 2px #3addd6;
+    border-radius: 1em;
+    width: 95%;
+    position: relative;
+    left: 15px;
+}
+
+.input-form-question {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#input-form-second-question {
+    margin-top: 10px;
+}
+
+#like-textarea {
+    width: 80%;
+    height: 80px;
+}
+
+.form-control-question {
+    background-color: #f0eeee;
+    border: none;
+    box-shadow: 1px 1px 1px #3addd6;
+    position: relative;
+    left: 10px;
+}
+
+#generated-input {
+    background-color: #f0eeee;
+    border: none;
+    box-shadow: 1px 1px 1px #3addd6;
+    position: relative;
+    left: 10px;
+    height: 40px;
+    width: 70%;
+}
+
+#number-specificies {
+    height: 35px;
+    width: 75px;
+    color: #51bfd0;
+}
+
+#selection-dropdown {
+    height: 40px;
+    width: 70%;
+}
+
+.input-form-question>a {
+    position: relative;
+    left: 89%;
+    top: -35px;
+}
+
+#fg {
+    width: 40px;
+    height: 40px;
+    border: none;
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+
+#add-question,
+#fg {
+    background-image: url(../icones/ic-ajout-réponse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
